@@ -1,0 +1,37 @@
+{
+    "page": [
+        {
+            "id": 123,
+            "title": "The best product 1",
+            "price": 100.00,
+            "description": "As long as you are waiting for the best pro",
+            "update_date": "2024-04-23T18:25:43.511Z",
+            "images": [
+                "best1.png",
+                "best2.png"
+            ]
+        },
+        {
+            "id": 456,
+            "title": "The best product 2",
+            "price": 10.00,
+            "description": "As long as you are ",
+            "update_date": "2024-04-23T18:25:43.511Z",
+            "images": [
+                "best1.png",
+                "best2.png"
+            ]
+        },
+        {
+            "id": 789,
+            "title": "The best product 3",
+            "price": 120.00,
+            "description": "As long as you are waiting for the best product, the best product waits for you",
+            "update_date": "2024-04-23T18:25:43.511Z",
+            "images": [
+                "best1.png",
+                "best2.png"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+<NavBar />
+
+<div class="catalog">
+  <ul class="results">
+    {{#each @model as |product|}}
+     <li><Product @product={{product}}/></li>
+    {{/each}}
+  </ul>
+</div>
