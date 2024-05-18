@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+    <h1>Product List</h1>
+    <div id="products"></div>
+    <div id="cart">
+        <p>Your cart is empty.</p>
+    </div>
+    <h2>Customer Information</h2>
+    <form id="customer-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="address">Delivery Address:</label>
+        <input type="text" id="address" name="address" required>
+    </form>
+    <button id="checkout" onclick="checkout()">Checkout</button>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
