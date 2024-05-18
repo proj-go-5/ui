@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchProducts() {
         try {
-            const response = await fetch('http://localhost:8081/products');
+            const response = await fetch('/products');
             const data = await response.json();
             displayProducts(data.page);
         } catch (error) {
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         try {
-            const response = await fetch('http://localhost:8081/orders', {
+            const response = await fetch('/orders', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
